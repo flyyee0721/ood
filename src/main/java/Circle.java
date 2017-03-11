@@ -11,6 +11,7 @@ public class Circle {
         this.radius = radius;
     }
 
+    //This is a test
     public int getRadius() { return radius; }
 
     public double getSize() {
