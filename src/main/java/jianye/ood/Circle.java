@@ -1,13 +1,16 @@
+package jianye.ood;
+import lombok.Data;
 /**
  * Created by jianye on 3/10/17.
  */
+@Data
 public class Circle {
 
     private int radius = 1;
 
-    private Circle() { }
+    public Circle() { }
 
-    private Circle(int radius) {
+    public Circle(int radius) {
         this.radius = radius;
     }
 
