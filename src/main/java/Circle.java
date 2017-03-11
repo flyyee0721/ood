@@ -3,11 +3,18 @@
  */
 public class Circle {
 
-    private static Circle ourInstance = new Circle();
-
-    public static Circle getInstance() {
-        return ourInstance;
-    }
+    private int radius = 1;
 
     private Circle() { }
+
+    private Circle(int radius) {
+        this.radius = radius;
+    }
+
+    public int getRadius() { return radius; }
+
+    public double getSize() {
+        return Math.PI * radius * radius;
+    }
+
 }
