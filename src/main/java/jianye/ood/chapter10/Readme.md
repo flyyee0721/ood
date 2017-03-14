@@ -15,3 +15,7 @@
   
 * Tips
   * Synchronize on students list in add/drop students function.
+  
+##Case study: design the GuessDate class
+* Utility class is declared to be final and has a private constructor.
+* Define utility classes that contain static methods and static data.
